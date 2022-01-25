@@ -1,0 +1,5 @@
+Seguencia do desenvolvimento
+
+1 - laravel new "{nome do projeto}" //criando o projeto
+2 - php artisan serve // rodar o projeto
+3 - Criando Rota em routes->api - endPoint no caso da api
