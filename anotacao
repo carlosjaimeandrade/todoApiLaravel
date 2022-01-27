@@ -4,3 +4,11 @@ Seguencia do desenvolvimento
 2 - php artisan serve // rodar o projeto
 3 - Criando Rota em routes->api - endPoint no caso da api
 4 - Configurar CORS (OPTICIONAL) config->cors, allowed_origins permite site ['www.site1.com'], permitir metodos allowed_methods
+5 - Criando controller php artisan make:controller "{ApiController}"
+6 - Criando model php artisan make:model "{todo}"
+7 - php artisan make:migration create_todo_table --create=todos
+8 - Configurando o arquivo migration com os atributos da tabela, 
+e alterar "Schema::table" para "Schema::create",  "public function down() { Schema::dropIfExists('todos'); }"
+ database->migration->arquivo
+9 - Verificar no arquivo .env se os dados do bd batem
+10 - rodar o migration para criar tabelas php artisan migrate
